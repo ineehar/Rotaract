@@ -6,6 +6,7 @@
     android:background="@drawable/background"
     xmlns:app="http://schemas.android.com/apk/res-auto">
 
+<<<<<<< HEAD
     <EditText
         android:id="@+id/username"
         android:layout_width="300dp"
@@ -36,6 +37,38 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.45"
         app:layout_constraintStart_toStartOf="parent" />
+=======
+        <EditText
+            android:id="@+id/username"
+            android:layout_width="300dp"
+            android:layout_height="50dp"
+            android:background="@drawable/input_field"
+            android:ems="10"
+            android:hint="Username / Email"
+            android:inputType="textPersonName"
+            android:textColorHint="#253A4B"
+            app:layout_constraintBottom_toTopOf="@+id/passwd"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.45"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.889" />
+
+        <EditText
+            android:id="@+id/passwd"
+            android:layout_width="300dp"
+            android:layout_height="50dp"
+            android:layout_marginBottom="404dp"
+            android:background="@drawable/input_field"
+            android:ems="10"
+            android:hint="Password"
+            android:inputType="textPassword"
+            android:textColorHint="#253A4B"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.45"
+            app:layout_constraintStart_toStartOf="parent" />
+>>>>>>> 815e430b4445c0bc485f3ad52fb5a41afdb0dcde
 
     <Button
         android:id="@+id/button"
@@ -71,6 +104,7 @@
         app:layout_constraintVertical_bias="0.975" />
 
 
+<<<<<<< HEAD
     <TextView
         android:id="@+id/register"
         android:layout_width="89dp"
@@ -85,6 +119,22 @@
         app:layout_constraintHorizontal_bias="0.256"
         app:layout_constraintStart_toEndOf="@+id/textView"
         app:layout_constraintVertical_bias="0.761" />
+=======
+        <TextView
+            android:id="@+id/register"
+            android:layout_width="89dp"
+            android:layout_height="28dp"
+            android:layout_marginBottom="20dp"
+            android:fontFamily="@font/bold"
+            android:text="Register"
+            android:textColor="#F23B5F"
+            android:textSize="16sp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.256"
+            app:layout_constraintStart_toEndOf="@+id/textView"
+            app:layout_constraintVertical_bias="0.761" />
+>>>>>>> 815e430b4445c0bc485f3ad52fb5a41afdb0dcde
 
     <TextView
         android:id="@+id/forgotpasswd"
