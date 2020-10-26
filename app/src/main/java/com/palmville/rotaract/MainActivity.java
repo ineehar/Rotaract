@@ -14,23 +14,23 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        CardView registerCard, loginCard;
+        CardView donorCard, receiverCard;
 
-        registerCard = findViewById(R.id.registerCard);
-        loginCard = findViewById(R.id.loginCard);
-        
-        registerCard.setOnClickListener(new View.OnClickListener() {
+        donorCard = findViewById(R.id.donorCard);
+        receiverCard = findViewById(R.id.receiverCard);
+
+        donorCard.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent intent = new Intent(getApplicationContext(), Registration.class);
+                Intent intent = new Intent(getApplicationContext(), User.class);
                 startActivity(intent);
             }
         });
 
-        loginCard.setOnClickListener(new View.OnClickListener() {
+        receiverCard.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent intent = new Intent(getApplicationContext(), Login.class);
+                Intent intent = new Intent(getApplicationContext(), Registration.class);
                 startActivity(intent);
             }
         });
