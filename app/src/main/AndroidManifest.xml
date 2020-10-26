@@ -10,11 +10,21 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
         <activity android:name=".MainActivity">
+<<<<<<< HEAD
 
         </activity>
         <activity android:name=".Registration">
         </activity>
         <activity android:name=".Login">
+=======
+        </activity>
+
+        <activity android:name=".Login">
+
+        </activity>
+
+        <activity android:name=".Registration">
+>>>>>>> b085f1d160b62341d7cf116825d6ca24a3951d6f
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
