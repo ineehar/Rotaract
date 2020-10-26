@@ -28,14 +28,12 @@ import java.util.Objects;
 
 public class Login extends AppCompatActivity {
 
-    ImageView Backbutton;
     private FirebaseAuth mAuth;
     private FirebaseFirestore db;
     Button btn;
     EditText username;
     EditText password;
     TextView registration;
-    TextView forgotusername;
     TextView Forgotpasswd;
     String TAG;
     String un;
@@ -51,14 +49,7 @@ public class Login extends AppCompatActivity {
         mAuth = FirebaseAuth.getInstance();
         if (mAuth.getCurrentUser()!=null){
 
-//            SharedPreferences pref = getApplicationContext().getSharedPreferences("MyPref", 0);
             Intent intent;
-//            if (pref.getString("name","")!="") {
-//                intent = new Intent(getApplicationContext(), MainDashboard.class);
-//            }
-//            else {
-//                intent = new Intent(getApplicationContext(), Name.class);
-//            }
             intent = new Intent(getApplicationContext(), MainActivity.class);
             intent.addFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP);
             startActivity(intent);
