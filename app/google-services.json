@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "172746922101",
+    "firebase_url": "https://donorapp-d6edb.firebaseio.com",
+    "project_id": "donorapp-d6edb",
+    "storage_bucket": "donorapp-d6edb.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:172746922101:android:5785f20b70aca66366803c",
+        "android_client_info": {
+          "package_name": "com.palmville.rotaract"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "172746922101-67is47vq1j6fj80c0a31j5ruqpb8ktp1.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB_WdLSg6Ng4hRlFaepgrO-YauKPjN2aQA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "172746922101-67is47vq1j6fj80c0a31j5ruqpb8ktp1.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
