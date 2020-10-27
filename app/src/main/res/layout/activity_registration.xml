@@ -25,7 +25,8 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginBottom="8dp"
-            android:inputType="text" />
+            android:inputType="text"
+            />
 
         <TextView
             android:layout_width="wrap_content"
@@ -120,7 +121,8 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:orientation="horizontal"
-            android:layout_marginBottom="8dp">
+            android:layout_marginBottom="8dp"
+            android:id="@+id/hasDonatedRecently">
             <RadioButton
                 android:id="@+id/yes_radio_button"
                 android:layout_width="wrap_content"

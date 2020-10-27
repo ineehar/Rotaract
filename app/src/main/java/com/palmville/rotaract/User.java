@@ -17,6 +17,7 @@ public class User extends AppCompatActivity {
         Button newdonor = findViewById(R.id.new_user_button);
         Button existingdonor = findViewById(R.id.existing_user_button);
 
+
         newdonor.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
@@ -28,7 +29,7 @@ public class User extends AppCompatActivity {
         existingdonor.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent intent = new Intent(getApplicationContext(), Registration.class);
+                Intent intent = new Intent(getApplicationContext(), Login.class);
                 startActivity(intent);
             }
         });
