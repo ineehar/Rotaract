@@ -62,8 +62,8 @@ public class Registration extends AppCompatActivity {
 
                 final String dName = donorName.getText().toString();
                 final String dEmail = donorEmailId.getText().toString();
-                final int dAge = donorAge.getText();
-                final int dContact= donorContactNumber.getText();
+                final int dAge = Integer.parseInt(donorAge.getText().toString());
+                final long dContact= Long.parseLong(donorContactNumber.getText().toString());
                 final String dBloodGroup = donorBloodGroup.getText().toString();
                 final String dClub = donorClub.getText().toString();
                 String dPassword = donorPassword.getText().toString();
@@ -98,7 +98,7 @@ public class Registration extends AppCompatActivity {
                 if (TextUtils.isEmpty(dConfirmPassword)){
                     Toast.makeText(Registration.this, "Please Confirm password", Toast.LENGTH_SHORT);
                 }
-                if(dContact == null){
+                if(dContact == Long.parseLong(null)){
                     Toast.makeText(Registration.this, "Please Enter Contact Number", Toast.LENGTH_SHORT);
                 }
 
